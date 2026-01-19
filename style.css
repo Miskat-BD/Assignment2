@@ -24,7 +24,7 @@
   background-image: url(assets/hero-bg.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  /* background-size: cover; */
   margin-top: 4rem;
 }
 .banner-logo{
@@ -44,6 +44,9 @@
 .choose-column{
   background-color:  rgba(53, 17, 101, 0.4);
 }
+/* .episodes{
+  border: 2px solid red;
+} */
 /* Responsive Design */
 @media screen and (max-width:576px) {
   .banner-container{
