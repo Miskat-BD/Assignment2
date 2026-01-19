@@ -41,4 +41,19 @@
   margin-left: 9px;
   max-width: 100%;
 }
+.choose-column{
+  background-color:  rgba(53, 17, 101, 0.4);
+}
 /* Responsive Design */
+@media screen and (max-width:576px) {
+  .banner-container{
+    background-size: contain;
+    background-position: top;
+  }
+  .banner-circle{
+    width: 50%;
+  }
+  .banner-mic{
+    width: 20%;
+  }
+}
