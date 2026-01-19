@@ -1,0 +1,9 @@
+@import "tailwindcss"
+
+.font-design{
+  font-family: "Inter", sans-serif;
+
+}
+h3{
+    color: red;
+}
