@@ -2,8 +2,18 @@
 
 .font-design{
   font-family: "Inter", sans-serif;
-
 }
-h3{
-    color: red;
+.nav-list{
+  list-style: none;
 }
+.nav-wave{
+ background: linear-gradient(to top, rgba(145, 0, 248, 1), rgba(251, 9, 180, 1), rgba(247, 233, 63, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-primary{
+  background:linear-gradient(to left, rgba(145, 0, 248, 1), rgba(251, 9, 180, 1), rgba(247, 233, 63, 1)) ;
+  padding: 8px 20px 8px 16px;
+  margin-top: 5px;
+}
+/* Responsive Design */
