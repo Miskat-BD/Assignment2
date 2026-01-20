@@ -48,9 +48,16 @@
 .choose-column{
   background-color:  rgba(53, 17, 101, 0.4);
 }
-/* .episodes{
-  border: 2px solid red;
-} */
+.footer{
+  background-image: url(./assets/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.social li{
+  list-style: none;
+}
+
 /* Responsive Design */
 @media screen and (max-width:576px) {
   .banner-container{
@@ -74,7 +81,4 @@
     align-items: center;
     text-align: center;
   }
-  /* .icons{
-    justify-content: center;
-  } */
 }
