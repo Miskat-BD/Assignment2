@@ -41,6 +41,10 @@
   margin-left: 9px;
   max-width: 100%;
 }
+.new{
+  right: 38%;
+  top: 25%;
+}
 .choose-column{
   background-color:  rgba(53, 17, 101, 0.4);
 }
@@ -59,4 +63,18 @@
   .banner-mic{
     width: 20%;
   }
+  .new{
+    width: 15%;
+    right: 25%;
+    top: 14%;
+  }
+  .host{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  /* .icons{
+    justify-content: center;
+  } */
 }
