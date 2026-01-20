@@ -11,6 +11,15 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.animation:hover{
+  background-color: red;
+  transition:  background-color 3s;
+}
+.footer-wave{
+  background: linear-gradient(to bottom, rgba(145, 0, 248, 1), rgba(251, 9, 180, 1), rgba(247, 233, 63, 1));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 .btn-primary{
   background:linear-gradient(to left, rgba(145, 0, 248, 1), rgba(251, 9, 180, 1), rgba(247, 233, 63, 1)) ;
   padding: 8px 20px 8px 16px;
@@ -40,7 +49,12 @@
   position: absolute;
   margin-left: 9px;
   max-width: 100%;
+  transition: transform 6s;
 }
+.banner-mic:hover{
+  transform: rotate(180deg);
+}
+
 .new{
   right: 38%;
   top: 25%;
@@ -80,5 +94,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .social{
+    flex-wrap: wrap;
+    gap: inherit;
+    gap: 5px;
   }
 }
